@@ -1,0 +1,23 @@
+# Environment & Local Overrides (Never commit passwords to GitHub)
+config/config.local.php
+.env
+.env.local
+
+# Logs and Caches
+logs/*.log
+!logs/.gitkeep
+
+# System & OS Files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+*.zip
+*.rar
+*.tar.gz
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
