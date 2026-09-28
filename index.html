@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="th" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- SEO Meta Tags -->
+  <title>ขายทุกอย่าง | ศูนย์รวมตัวละครฮีโร่และไอเทมสุดแรร์ 20.- ลดพิเศษ 15.-</title>
+  <meta name="description" content="ร้านขายทุกอย่าง แหล่งรวมตัวละครฮีโร่สุดแรร์ อนิเมะ สายสปีด สายถึก สเตตัสจัดเต็ม เริ่มต้นเพียง 20 บาท ลดพิเศษ 15 บาท พร้อมส่งทันทีผ่าน LINE 24 ชม." />
+  <meta name="keywords" content="ขายทุกอย่าง, ขายตัวละคร, ฮีโร่, Luffy, Spiderman, Gojo, Sasuke, ไอเทมเกม, สกินฮีโร่" />
+  <meta name="author" content="ขายทุกอย่าง" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="./index.html" />
+  <meta property="og:title" content="ขายทุกอย่าง | ศูนย์รวมตัวละครฮีโร่และไอเทมสุดแรร์" />
+  <meta property="og:description" content="ขายตัวละครฮีโร่สุดแรร์ เริ่มต้นเพียง 20.- ลดพิเศษ 15.- สั่งซื้อง่ายผ่าน LINE ส่งไวใน 5 นาที" />
+  <meta property="og:image" content="images/heroes/LuffyNika.png" />
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="ขายทุกอย่าง | ศูนย์รวมตัวละครฮีโร่สุดแรร์" />
+  <meta name="twitter:description" content="ขายตัวละครฮีโร่สุดแรร์ เริ่มต้นเพียง 20.- ลดพิเศษ 15.-" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>" />
+
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <header class="site-header">
+    <div class="container">
+      <nav class="navbar" aria-label="Main Navigation">
+        <a href="index.html" class="brand-logo" aria-label="ขายทุกอย่าง หน้าแรก">
+          <div class="brand-icon-box" style="background: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%); color: #000; font-weight: 800;">⚡</div>
+          <span class="store-name-text">ขายทุกอย่าง</span>
+        </a>
+
+        <!-- Desktop Navigation -->
+        <ul class="nav-menu">
+          <li><a href="index.html" class="nav-link active">หน้าแรก</a></li>
+          <li><a href="products.html" class="nav-link">ฮีโร่ทั้งหมด</a></li>
+          <li><a href="about.html" class="nav-link">เกี่ยวกับร้าน</a></li>
+          <li><a href="contact.html" class="nav-link">ติดต่อเรา</a></li>
+        </ul>
+
+        <!-- Action Buttons -->
+        <div class="nav-actions">
+          <a href="https://www.facebook.com/dekroyzz/" data-fb-page-link target="_blank" rel="noopener noreferrer" class="btn btn-facebook btn-sm nav-fb-btn">
+            💬 เพจ Facebook
+          </a>
+          <button type="button" class="theme-toggle-btn" aria-label="เปลี่ยนธีม"></button>
+          <button type="button" class="hamburger-btn" id="mobile-menu-btn" aria-label="เปิดเมนู">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <line x1="3" y1="12" x2="21" y2="12"></line>
+              <line x1="3" y1="6" x2="21" y2="6"></line>
+              <line x1="3" y1="18" x2="21" y2="18"></line>
+            </svg>
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="menu-backdrop" id="menu-backdrop"></div>
+  <aside class="mobile-menu" id="mobile-menu" aria-label="Mobile Navigation Drawer">
+    <div class="mobile-menu-header">
+      <div class="brand-logo">
+        <div class="brand-icon-box" style="background: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%); color: #000; font-weight: 800;">⚡</div>
+        <span class="store-name-text">ขายทุกอย่าง</span>
+      </div>
+      <button type="button" class="mobile-menu-close" id="mobile-menu-close" aria-label="ปิดเมนู">✕</button>
+    </div>
+    
+    <nav class="mobile-nav-links">
+      <a href="index.html" class="mobile-nav-link active">🏠 หน้าแรก</a>
+      <a href="products.html" class="mobile-nav-link">🦸‍♂️ ฮีโร่ทั้งหมด (198 ตัว)</a>
+      <a href="about.html" class="mobile-nav-link">📖 เกี่ยวกับร้าน</a>
+      <a href="contact.html" class="mobile-nav-link">📞 ติดต่อเรา</a>
+    </nav>
+
+    <div class="mobile-menu-footer">
+      <a href="https://www.facebook.com/dekroyzz/" data-fb-page-link target="_blank" rel="noopener noreferrer" class="btn btn-facebook btn-block" style="margin-bottom: 0.75rem;">
+        💬 ทักแชทสั่งซื้อทาง เพจ Facebook
+      </a>
+    </div>
+  </aside>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Banner with Interactive 3D Turntable Stage -->
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-inner">
+          <div class="hero-content">
+            <div class="hero-badge-pill" style="border-color: rgba(0, 242, 254, 0.4); background: rgba(0, 242, 254, 0.08); color: #00f2fe;">
+              <span>⚡</span>
+              <span>HERO ARMORY • ตัวละครแท้ 100% พร้อมส่ง</span>
+            </div>
+            
+            <h1 class="hero-title">
+              ศูนย์รวม <span class="text-gradient">ตัวละครฮีโร่สุดแรร์</span> เริ่มต้น 20.- ลดพิเศษ 15.-
+            </h1>
+            
+            <p class="hero-desc store-tagline-text">
+              คัดสรรตัวละครฮีโร่ยอดนิยม สกิลวิ่งไว ถึกทน รีเจนเลือดแรง จัดส่งโค้ดไวใน 5 นาที พร้อมลุยทุกเซิร์ฟเวอร์
+            </p>
+
+            <div class="hero-cta-group">
+              <a href="products.html" class="btn btn-primary btn-lg" style="background: linear-gradient(135deg, #00f2fe, #4facfe); color: #07090e; font-weight: 700; border: none;">
+                สำรวจฮีโร่ทั้งหมด (198 ตัว) →
+              </a>
+              <a href="https://www.facebook.com/dekroyzz/" data-fb-page-link target="_blank" rel="noopener noreferrer" class="btn btn-facebook btn-lg">
+                💬 ทักสั่งซื้อทาง เพจ Facebook
+              </a>
+            </div>
+
+            <div class="hero-trust-indicators">
+              <div class="trust-item">
+                <span>⚡</span>
+                <span>ส่งโค้ดไวใน 5 นาที</span>
+              </div>
+              <div class="trust-item">
+                <span>🛡️</span>
+                <span>ของแท้ ไม่โดนแบน</span>
+              </div>
+              <div class="trust-item">
+                <span>🔥</span>
+                <span>โปรลดเหลือ 15.-</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hero 3D Interactive Turntable Viewer Right on Banner -->
+          <div class="hero-image-wrap">
+            <div class="holo-stage-3d" id="home-hero-stage" style="height: 420px; box-shadow: var(--shadow-xl); border-color: rgba(0, 242, 254, 0.3);">
+              <div class="holo-drag-hint">
+                <span>👆 ลากเมาส์ หรือปัดนิ้วเพื่อหมุน 3D</span>
+              </div>
+              <div class="holo-grid-floor"></div>
+              <div class="holo-pedestal"></div>
+
+              <!-- 3D Card Wrap -->
+              <div class="holo-card-3d-wrap auto-spin" id="home-holo-wrap" style="width: 220px; height: 260px;">
+                <div class="holo-card-inner">
+                  <div class="holo-scanlines"></div>
+                  <div style="position: absolute; top: 10px; left: 10px; z-index: 10;">
+                    <span class="badge badge-sale-hot">🔥 SALE 15.-</span>
+                  </div>
+                  <img 
+                    src="images/heroes/LuffyNika.png" 
+                    alt="LuffyNika" 
+                    class="holo-char-img" 
+                    id="home-banner-img"
+                    onerror="this.src='images/products/placeholder.svg'"
+                  />
+                  <div style="margin-top: auto; text-align: center; z-index: 10;">
+                    <strong style="color: #00f2fe; font-size: 0.95rem;">LuffyNika</strong>
+                    <div style="font-size: 0.75rem; color: #10b981; font-weight: 600;">พร้อมส่ง • จัดส่งไว 24 ชม.</div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Interactive Controls -->
+              <div class="holo-controls-bar">
+                <button type="button" class="holo-ctrl-btn btn-toggle-spin">
+                  <span>⏸️ หยุดหมุน</span>
+                </button>
+                <button type="button" class="holo-ctrl-btn btn-reset-angle">
+                  <span>🎯 รีเซ็ตมุม</span>
+                </button>
+                <a href="product.html?id=819118" class="holo-ctrl-btn" style="background: rgba(0, 242, 254, 0.25);">
+                  <span>🔍 ดูรายละเอียด</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Store Features / Highlights -->
+    <section class="features-section">
+      <div class="container">
+        <div class="features-grid" id="store-features-grid">
+          <!-- Features injected from products.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Heroes Section (Showcase on SALE 15.-) -->
+    <section style="padding: 4.5rem 0;">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.25rem;">
+              <span class="badge badge-sale-hot">🔥 HOT PROMOTION</span>
+              <span style="font-size: 0.85rem; color: #00f2fe; font-weight: 600;">ลดพิเศษเหลือ 15 บาท (ปกติ 20.-)</span>
+            </div>
+            <h2 class="section-title">ฮีโร่แนะนำยอดนิยม</h2>
+            <p class="section-subtitle">ตัวละครอนิเมะและสายสปีดที่ได้รับความนิยมสูงสุด ลุยได้ทุกสถานการณ์</p>
+          </div>
+          <a href="products.html" class="btn btn-outline" style="display: none; @media(min-width: 640px){ display: inline-flex; }">
+            ดูฮีโร่ทั้งหมด (<span id="home-total-count">198</span>) →
+          </a>
+        </div>
+
+        <div class="products-grid" id="featured-products-grid">
+          <!-- Dynamically populated via js/main.js -->
+        </div>
+
+        <div style="text-align: center; margin-top: 3.5rem;">
+          <a href="products.html" class="btn btn-primary btn-lg" style="background: linear-gradient(135deg, #00f2fe, #4facfe); color: #07090e; font-weight: 700; border: none; padding: 0.85rem 2.25rem;">
+            ชมฮีโร่ทั้งหมด 198 ตัวในคลัง →
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3-Step Ordering Section -->
+    <section style="background-color: var(--bg-surface); border-top: 1px solid var(--border-color); border-bottom: 1px solid var(--border-color); padding: 4.5rem 0;">
+      <div class="container">
+        <div style="text-align: center; max-width: 680px; margin: 0 auto 3rem;">
+          <span class="badge badge-sale-hot" style="margin-bottom: 0.75rem;">สั่งซื้อง่าย ไม่ต้องสมัครสมาชิก</span>
+          <h2 style="font-size: 2rem; font-weight: 800; margin-bottom: 0.75rem;">ขั้นตอนการรับฮีโร่ง่ายๆ ใน 3 สเต็ป</h2>
+          <p style="color: var(--text-secondary);">ชำระเงินเสร็จสิ้น รับโค้ด/ตัวละครไปติดตั้งและลุยได้ทันที</p>
+        </div>
+
+        <div class="steps-grid">
+          <div class="step-card">
+            <div class="step-num" style="background: linear-gradient(135deg, #00f2fe, #4facfe); color: #07090e; font-weight: 800;">1</div>
+            <div>
+              <h4 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 0.35rem;">เลือกฮีโร่ที่ต้องการ</h4>
+              <p style="color: var(--text-secondary); font-size: 0.9rem;">หมุนส่องดูโมเดล 3D และเช็กสเตตัส สปีดวิ่ง/เกราะ/รีเจน ได้อย่างละเอียด</p>
+            </div>
+          </div>
+          <div class="step-card">
+            <div class="step-num" style="background: linear-gradient(135deg, #00f2fe, #4facfe); color: #07090e; font-weight: 800;">2</div>
+            <div>
+              <h4 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 0.35rem;">กดทักแชท Facebook</h4>
+              <p style="color: var(--text-secondary); font-size: 0.9rem;">กดปุ่มสั่งซื้อทางเพจ Facebook แอดมินพร้อมดูแล 24 ชม.</p>
+            </div>
+          </div>
+          <div class="step-card">
+            <div class="step-num" style="background: linear-gradient(135deg, #00f2fe, #4facfe); color: #07090e; font-weight: 800;">3</div>
+            <div>
+              <h4 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 0.35rem;">โอนเงิน รอรับตัวละคร</h4>
+              <p style="color: var(--text-secondary); font-size: 0.9rem;">แอดมินส่งโค้ดและวิธีเปิดใช้งานให้ทันทีภายใน 5 นาที</p>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align: center; margin-top: 3rem; display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+          <a href="https://www.facebook.com/dekroyzz/" data-fb-page-link target="_blank" rel="noopener noreferrer" class="btn btn-facebook btn-lg" style="font-weight: 700;">
+            💬 ทักสั่งซื้อทาง เพจ Facebook (dekroyzz)
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <div class="brand-icon-box" style="background: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%); color: #000; font-weight: 800;">⚡</div>
+            <span class="store-name-text">ขายทุกอย่าง</span>
+          </div>
+          <p class="store-tagline-text">ศูนย์รวมตัวละครฮีโร่และไอเทมสุดแรร์ ราคาถูกที่สุด จัดส่งไว 24 ชม.</p>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">เมนูด่วน</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">หน้าแรก</a></li>
+            <li><a href="products.html">ฮีโร่ทั้งหมด (198 ตัว)</a></li>
+            <li><a href="about.html">เกี่ยวกับร้าน</a></li>
+            <li><a href="contact.html">ติดต่อเรา</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">หมวดหมู่ฮีโร่</h4>
+          <ul class="footer-links">
+            <li><a href="products.html">✨ ฮีโร่อนิเมะ & แฟนตาซี</a></li>
+            <li><a href="products.html">⚡ สายสปีด วิ่งไว 35+</a></li>
+            <li><a href="products.html">🛡️ สายถึก เกราะหนา</a></li>
+            <li><a href="products.html">💖 สายรีเจน เลือดเด้ง</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">ติดต่อร้านค้า</h4>
+          <div class="footer-contact-item">
+            <span>🌐 เพจ Facebook:</span>
+            <a href="https://www.facebook.com/dekroyzz/" data-fb-page-link target="_blank" rel="noopener noreferrer" style="color: var(--accent); text-decoration: underline;">dekroyzz</a>
+          </div>
+          <div class="footer-contact-item">
+            <span>📞 โทร:</span>
+            <span class="phone-text" data-phone-link>089-999-8888</span>
+          </div>
+          <div class="footer-contact-item">
+            <span>⏰ เวลาทำการ:</span>
+            <span class="store-hours-text">เปิดจำหน่ายตลอด 24 ชั่วโมง</span>
+          </div>
+          <div style="margin-top: 1rem; display: flex; gap: 0.5rem;">
+            <a href="https://www.facebook.com/dekroyzz/" data-fb-page-link target="_blank" rel="noopener noreferrer" class="btn btn-facebook btn-sm">เพจ Facebook</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          © <span class="current-year">2026</span> <strong class="store-name-text">ขายทุกอย่าง</strong>. All rights reserved.
+        </div>
+        <div>
+          Static Website พร้อม Deploy บน GitHub Pages | ไม่ใช้ Backend / ไม่ใช้ MySQL
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/products.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    // Initialize banner 3D turntable
+    document.addEventListener("DOMContentLoaded", () => {
+      const bannerStage = document.getElementById("home-hero-stage");
+      if (bannerStage && typeof setup3DStage === "function") {
+        setup3DStage(bannerStage);
+      }
+      const countEl = document.getElementById("home-total-count");
+      if (countEl && typeof PRODUCTS !== "undefined") {
+        countEl.textContent = PRODUCTS.length;
+      }
+    });
+  </script>
+</body>
+</html>
